@@ -3,21 +3,6 @@
   
 }
 
-.portada {
-  background-image: url('img/cuales-son-las-cuatro-olas___q6jHs0ZvH_1256x620__1.jpg');
-  background-size: cover;
-  color: rgb(24, 204, 15);
-  padding: 20px;
-  box-shadow: rgba(0. 0, 0, 0.4);
-  }
-
-  .menu {
-    display: inline-block;
-    font-size: 24px;
-    position: absolute;
-    right: 0;
-  }
-
   .parrafo {
     font-family: 'Caveat', cursive;
   }
@@ -30,5 +15,6 @@
     font-size: 20px;
   }
 
+  
   
 /*# sourceMappingURL=styles.css.map */
