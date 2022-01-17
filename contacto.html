@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="build/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=DM+Serif+Display:ital@1&family=Luxurious+Roman&family=Pacifico&family=Playfair+Display:ital,wght@0,400;1,500;1,700&family=Roboto:wght@400;700;900&family=Shizuru&family=Twinkle+Star&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+  <title>Agencia Propia</title>
+</head>
+
+<body><header class="header container portada">
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-white text-center">
+    <div class="container-fluid">
+      <a class="navbar-brand letra" href="#">Agencia Propia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active letra" aria-current="page" href="index.html">Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active letra" aria-current="page" href="nosotras.html">Nosotras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active letra" aria-current="page" href="#">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active letra" aria-current="page" href="#">Publicaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active letra" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="container-fluid col6">
+    <div>
+      <img src="img/logo.jpg"    alt="dibujo de mujeres de perfil">
+      
+  
+     </div>
+      
+</nav>
+ 
+</header>
+<div class="p-5" style="background-color: #fcb929">
+  <h1 class="letra text-white text-center">¡Anímate a ser parte de Agencia Propia! <br> ¡Apoya nuestro trabajo!</h1>
+</div>
+
+<!-- contacto -->
+  <div class="contenedor d-flex justify-content-evenly p-5 fs-20" style="background-color: #fcb929">
+        <div class="contacto text-center">
+       
+      <img src="img/contacto.png" alt="imagen contacto" width="500" class="p-5"/> <br>
+
+      <a class="mt-3 letra text-center contacto text-black" href="Tel:+569948439922"><strong>Teléfono:</strong> <span>948439922</span></a> <br>
+      <a class="letra text-center contacto text-black" href="mailto: contacto@agenciapropia.cl"> <strong>E-mail:</strong> <span> contacto@agenciapropia.cl</span></a>
+    </div>
+  
+  <form class="formulario letra b">
+    <div class="col1">
+      
+    <label for="nombre" class="mx-3 text-center contacto">Nombre</label>
+    <input type="text" id="Nombre" required name="nombre" class="mb-3 "/>  <br>
+
+    <label for="email" class="mx-2 contacto">Correo <br> electrónico </label>
+    <input type="email" id="email" name="email" />
+
+    <div class="generos mb-5 mt-5">
+      <label for="mujer">
+        <input type="radio" id="mujer" name="genero" value="mujer" class="mx-3 contacto" required> Mujer
+      </label>
+
+      <label>
+        <input type="radio" id="hombre" name="genero" value="hombre" class="mx-3 contacto" required> Hombre
+      </label>
+
+      <label>
+        <input type="radio" id="otro" name="genero" value="otro" class="mx-3 contacto" required> Otro
+      </label>
+
+    </div>
+
+    <div class="intereses">
+      <label for="cotizacion">
+        <input type="checkbox" id="cotizacion" name="intereses" value="cotizacion" class="mx-3 contacto"> Voluntariado
+      </label>
+
+      <label for="reclamos" class="mb-3">
+        <input type="checkbox" id="reclamos" name="intereses" value="reclamos" class="mx-3 contacto"> Aportes y donaciones    
+      </label> <br>
+
+      <label for="observaciones">
+        <input type="checkbox" id="observaciones" name="intereses" value="observaciones" class="mx-3 contacto" > Asesorías
+      </label>
+
+      <label for="otros" class="mb-5 mx-4">
+        <input type="checkbox" id="otros" name="intereses" value="otros" class="mx-3 contacto"> Otros
+      </label>
+    </div>
+
+    </div>
+
+
+    <div class="col2">
+      
+      <label for="comentarios" class="p-2 contacto"> Comentarios</label> <br>
+      <textarea name="" id="comentarios" cols="30" rows="7"></textarea><br>
+      <input class="button mt-3 contacto btn btn-dark text-white" type="submit" value="Enviar">
+
+
+    </div>
+
+
+  </form>
+
+  </div>
+</body>
+<!-- Footer -->
+<footer class="text-center p-5" style="background-color: white">
+  <!-- Grid container -->
+  <div class="container p-3  background-color-black">
+    <!-- Section: Social media -->
+    <section class="p-5">
+      <!-- Facebook -->
+       <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="https://img.icons8.com/clouds/100/000000/facebook.png"/></a>
+    
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="https://img.icons8.com/clouds/100/000000/twitter.png"/></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="https://img.icons8.com/clouds/100/000000/instagram-new--v1.png"/></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><img src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
+
+      
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section >
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <h4 class="letra"><b>Siguenos en nuestras redes sociales</b></h4>
+          </div>
+          <!--Grid column-->
+
+         
+
+  <!-- Copyright -->
+  <div class="text-center p-4">
+    © 2020 Copyright:
+    <a class="text-black" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
